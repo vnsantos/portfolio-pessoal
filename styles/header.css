@@ -1,0 +1,29 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5em 0;
+    border-bottom: 3px solid var(--cor-terciaria);
+}
+
+.cabecalho__titulo {
+    font-family: var(--fonte-primaria);
+    font-size: 1.3em;
+    font-weight: 700;
+    color: var(--cor-terciaria);
+}
+
+.cabecalho__links {
+    display: flex;
+}
+
+.cabecalho__link-ancora {
+    color: var(--cor-terciaria);
+    font-size: 1.1em;
+    text-decoration: none;
+    margin: 0 1em;
+}
+
+.cabecalho__link-ancora:hover {
+   color: var(--cor-hover);
+}

@@ -1,0 +1,11 @@
+.rodape {
+    margin-top: 5em;
+    text-align: center;
+    background-color: var(--cor-rodape);
+    padding: 2em 0;
+}
+
+.copyright__nome {
+    color: var(--cor-terciaria);
+    font-weight: 700;
+}

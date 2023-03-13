@@ -1,0 +1,33 @@
+.sobre-mim {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid var(--cor-terciaria);
+    border-radius: 10px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.sobre-mim__texto-sobre {
+    font-weight: 700;
+    color: var(--cor-terciaria);
+}
+
+.sobre-mim__titulo {
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 0.5em 1em;
+}
+
+.sobre-mim__texto {
+    font-size: 1.2em;
+    margin: 0.5em 1em;
+    line-height: 1.5em;
+}
+
+.sobre-mim__destaque {
+    color: var(--cor-terciaria);
+    font-weight: 700;
+}
+
+
